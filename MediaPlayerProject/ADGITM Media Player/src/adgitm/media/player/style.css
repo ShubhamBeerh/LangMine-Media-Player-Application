@@ -1,0 +1,158 @@
+
+    .openButton{
+        -fx-background-image:url("/images/folder-invoices.png");
+        -fx-background-size:20 20;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:black;
+    }
+    
+    .openButton:hover{
+        -fx-border-radius:50%;
+        -fx-width:50px;
+        -fx-height:50px;
+        -fx-background-color:#ffe14d;
+    }
+    .playButton{
+        -fx-background-image:url("/images/Play.png");
+        -fx-background-size:40 40;
+        -fx-background-radius:50%;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:white;
+    }
+    
+    .playButton:hover{
+        width:50px;
+        height:50px;
+        -fx-background-radius:50%;
+        -fx-border-radius:50%;;
+        -fx-background-color:#ffe14d;
+    }
+    
+    .pauseButton{
+        -fx-background-image:url("/images/Pause.png");
+        -fx-background-size:42 42;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:black;
+    }
+    
+    .pauseButton:hover{
+        width:50px;
+        height:50px;
+        -fx-background-radius:50%;
+        -fx-border-radius:50%;;
+        -fx-background-color:#ffe14d;
+    }
+    
+    .stopButton{
+        -fx-background-image:url("/images/Stop.png");
+        -fx-background-size:40 40;
+        -fx-background-radius:50%;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:black;
+    }
+    
+    .stopButton:hover{
+        -fx-background-radius:50%;
+        -fx-border-radius:50%;;
+        -fx-background-color:#ffe14d;
+    }
+    
+    .slowButton{
+        -fx-background-image:url("/images/Slow.png");
+        -fx-background-size:23 23;
+        -fx-background-radius:50%;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:grey;
+    }
+    
+    .slowButton:hover{
+        -fx-background-radius:50%;
+        -fx-border-radius:50%;;
+        -fx-background-color:#ffe14d;
+    }
+    
+    .slowerButton{
+        -fx-background-image:url("/images/Slower.png");
+        -fx-background-size:22 22;
+        -fx-background-radius:50%;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:black;
+    }
+    .slowerButton:hover{
+        -fx-background-radius:50%;
+        -fx-border-radius:50%;;
+        -fx-background-color:#ffe14d;
+    }
+    
+    .fastButton{
+        -fx-background-image:url("/images/Fast.png");
+        -fx-background-size:23 23;
+        -fx-background-radius:50%;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:grey;
+    }
+    
+    .fastButton:hover{
+        -fx-background-radius:50%;
+        -fx-border-radius:50%;;
+        -fx-background-color:#ffe14d;
+    }
+    
+    .fasterButton{
+        -fx-background-image:url("/images/Faster.png");
+        -fx-background-size:22 22;
+        -fx-background-radius:50%;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:black;
+    }
+    
+    .fasterButton:hover{
+        -fx-background-radius:50%;
+        -fx-border-radius:50%;;
+        -fx-background-color:#ffe14d;
+    }
+    
+    .exitButton{
+        -fx-background-image:url("/images/Exit.png");
+        -fx-background-size:20 20;
+        -fx-background-position:center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:black;
+    }
+    
+    .exitButton:hover{
+        -fx-border-radius:50%;
+        -fx-background-color:#ffe14d;
+    }
+    
+    .stackPane{
+        -fx-background-color:black;
+    }
+    
+    #trans{
+        -fx-background-color:#420357;
+        -fx-text-fill:#ffffff;
+    }
+    #trans:hover
+    {
+        -fx-border-color:rgba(255,255,255,1);
+    }
+    
+    #Transit{
+        -fx-background-color:#6ed640;
+        -fx-border-radius:15px;
+    }
+    
+    #Transit:hover{
+        -fx-background-color:#84f553;
+        -fx-border-color:#6ed640;
+        -fx-border-radius:15px;
+    }
